@@ -37,6 +37,10 @@ This project demonstrates an **RPC-based messaging system** using RabbitMQ and N
    npm install
    ```
 
+4. Setup env 
+   ```bash
+   cp .env.example .env
+   ```
 ---
 
 ## RabbitMQ Login

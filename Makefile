@@ -1,6 +1,6 @@
 # Variables
 DOCKER_COMPOSE = docker-compose
-NODE = node
+NODE = nodemon
 RPC_SERVER = rpc_server.js
 HTTP_SERVER = http_server.js
 
