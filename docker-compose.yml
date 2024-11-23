@@ -11,5 +11,12 @@ services:
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq
 
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379" # Redis default port
+    command: redis-server --save 60 1 --loglevel warning
+
 volumes:
   rabbitmq_data:
